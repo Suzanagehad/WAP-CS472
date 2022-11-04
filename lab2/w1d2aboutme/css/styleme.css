@@ -1,0 +1,30 @@
+body{
+    background-color: darkgray;
+}
+h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    text-align:center;
+    }
+
+h2{
+
+    background-color: #F0F0F0;
+    color: rgb(119, 0, 255);
+    font-size: large;
+    font-weight: 600;
+}
+
+dt{
+    color: yellow;
+}
+
+:any-link{
+    color: red;
+    text-decoration:none;
+}
+
+nav a.homel{
+    color: rgb(13, 13, 129);
+}

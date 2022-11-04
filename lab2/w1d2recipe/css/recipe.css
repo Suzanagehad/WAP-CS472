@@ -1,0 +1,36 @@
+ body{
+    background-color: white;
+    color: #404040 ;
+   font-size: 11;
+   font-family: Georgia, Garamond, serif;
+ }
+
+ :any-link{
+    color:  #A4A400;
+ }
+
+ 
+
+ h3{
+    color: #A4A400;
+    background-color: #F0F0F0 ;
+    font-family:'Lucida Sans Unicode', Helvetica,Arial, sans-serif ;
+    font-weight: 18;
+    text-decoration: underline;
+  
+}
+
+
+
+#main{
+    text-align: center;
+    font-weight: 22;
+}
+
+
+
+article.art{
+    margin-left: 25px;
+    font-style: italic;
+    background-color: #ffffa8;
+}
