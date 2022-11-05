@@ -17,19 +17,19 @@ a {
     color: black;
 }
 
-.brand {
+.compro {
     font-size: 20px;
     font-weight: 600;
     display: inline;
     vertical-align: middle;
 }
 
-.heading {
+.div-head {
     display: inline;
 
 }
 
-#logo {
+#miu-logo {
 
     vertical-align: middle;
 }
@@ -67,7 +67,7 @@ header {
     text-align: center;
     
 }
-.container{
+.box{
     margin-left: 50px;
 }
 
@@ -108,7 +108,7 @@ button{
     vertical-align: middle;
     border-radius: 5px;
 }
-#button1{
+#buttonlogin{
     color: white;
     background-color: black;
     width: 420px;
@@ -123,7 +123,7 @@ div p{
     padding-right: 8em;
     font-weight: bold;
 }
-#button2{
+#buttonTicket{
     margin-right: 260px;
     color: white;
     background-color: black;
@@ -135,25 +135,25 @@ div p{
     vertical-align: middle;
 }
 
-#l{
+#status{
     color: gray;
     font-weight: lighter;
     padding-right: 130px;
     margin-bottom: 1px;    
 }
-#l2{
+#or{
     color: grey;
     font-weight: lighter;
     text-align: center;
 }
-#u{
+#username{
     
     color: gray;
     font-weight: lighter;
     padding-right: 280px;
     margin-bottom: 1px;    
 }
-#p{
+#password{
     color: gray;
     font-weight: lighter;
     padding-right: 340px;
@@ -179,10 +179,10 @@ h3{
     border-color: rgb(10, 151, 238);
 }
 
-#pass{
+#forgotP{
     color: rgb(130, 149, 173);
 }
-.blue{
+.highlight{
     text-decoration: none;
     color: rgb(130, 149, 173);
 }
