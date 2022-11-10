@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    display: flex;
+    
+    /* horizontal */
+    /* text-align: center; */
+    /* vertical */
+    justify-content: center; 
+    /* flex-direction: column; */
+    /* flex-direction: column; */
+    font-family: 'Roboto', sans-serif;
+}
+
+form{
+    margin-top: 30px;
+    width: 90vw;
+    display: flex;
+    /* to be in column order */
+    flex-direction: column;   
+}
+
+label{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 4px;
+    color: rgb(145,143, 143);
+}
+
+input[type = "email"], input[type = "password"], input[type = "text"]{
+    
+    width: 100%;
+    height: 30px;
+    border: 2px solid rgb(206,205,205);
+    border-radius: 7px;
+    padding: 15px;
+    font-size: 25px;
+   
+}
+
+#check{
+    margin-top: 20px;
+}
+
+input[type = "checkbox"]{
+   flex: 12px;
+}
+
+input[type = "submit"]{
+    margin: 0;
+    padding: 0;
+    width: 110px;
+    height: 55px;
+    background-color: rgb(0,123, 255);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 25px;
+
+   
+}
+
+label[for = "text"]{
+    margin-top: 20px;
+}
+
+
+
+
+

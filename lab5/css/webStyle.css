@@ -1,23 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400&display=swap');
 
-
 body {
-
     box-sizing: border-box;
     vertical-align: middle;
     text-decoration: none;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
 
+h3{
+    font-weight: 400;
+}
+
 .navbar {
+    font-weight: 400;
     background-color: rgb(38, 168, 244);
     display: flex;
     height: 60px;
     vertical-align: middle;
-
 }
 
 .navbar-brand {
@@ -26,7 +27,6 @@ body {
 }
 
 .nav-link {
-
     color: white;
     margin-right: 30px;
     font-size: 19px;
@@ -74,6 +74,8 @@ div.rightnav>label {
 input[type="email"],
 input[type="password"],
 input[type="text"],
+input[type = "date"],
+input[type = "number"],
 select {
     width: 100%;
     height: 45px;
@@ -93,27 +95,24 @@ input[type="checkbox"] {
 
 div.container-md {
     margin-top: 80px;
-
 }
 
 input[type="submit"] {
     width: 80px;
     height: 30px;
-    background-color: rgb(10, 122, 242);
+    background-color: rgb(0, 123, 255);
     color: white;
     border: 0px;
     border-radius: 4px;
-
-
 }
 
-label[for="text"] {
+label.formLabel{
     margin-top: 35px;
     margin-bottom: 10px;
     font-weight: 400;
 }
 
-#btn {
+#btns {
     justify-content: right;
     height: 40px;
     margin-top: 30px;
@@ -140,15 +139,13 @@ label[for="text"] {
 
 }
 
-#three {
+#addProduct {
+    width: fit-content;
+    height: 40px;
     border-radius: 4px;
-    padding: 8px;
+    padding: 10px;
     margin-left: 20px;
     background-color: white;
     border: 2px solid rgb(80, 205, 247);
     color: rgb(72, 203, 247);
-}
-
-h3{
-    font-weight: 400;
 }
