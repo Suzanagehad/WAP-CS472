@@ -1,0 +1,21 @@
+1)document.write(undefined)
+  document.write(8)
+  document.write(10)
+  document.write(9)
+  document.write(10)
+  document.write(1)
+
+2) GLobal Scope: is a scope that exists outside of the function
+   Local Scope: is a scope that exists with in a function.
+
+3) a)No
+   b)Yes
+   c)No
+   d)Yes
+   e)Yes
+
+
+4)document.write(81)
+  document.write(25)
+
+5)10

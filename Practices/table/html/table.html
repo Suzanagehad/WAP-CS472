@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/table.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    <section>
+        <!-- we used border to draw a boarder line on each td -->
+        <!-- cellspacing aparts the tables it works like margin if we set it to 0 all the boarder will be connected-->
+        <!-- cellpadding gives a space between boarder and the content it works like padding-->
+        <table class="tb" border="1" cellspacing="8" cellpadding="5" >
+         <!-- This is the caption of the header part of the table -->
+            <caption>List Of Courses</caption>
+
+            <!-- this are the headers inside the table and we do 3 headers(th) in 1 row(tr) -->
+            <thead>
+                <tr>
+                    <th class="thead">Coure Code No</th>
+                    <th class="thead">Course Name</th>
+                    <th class="thead">Units</th>
+                </tr>
+            </thead>
+
+            <!-- this are the body in each row under the headers(th) -->
+            <!--  we put 3 data(td) in one row(tr) -->
+            <tbody>
+                <tr>
+                    <td>CS401</td>
+                    <td>MPP</td>
+                    <td>4</td>
+                </tr>
+
+                <tr>
+                    <td>CS101</td>
+                    <td>FPP</td>
+                    <td>3</td>
+                </tr>
+
+                <tr>
+                    <td>CS401</td>
+                    <td>MPP</td>
+                    <td>4</td>
+                </tr>
+            </tbody>
+
+            <!-- this are the footer(tfoot) we did one table data(td) in one row(tr) -->
+            <!-- we did colspan 3 because we wanted to refill the three colomuns -->
+            <!-- if we did colspan 2 we would write the footer inone row but with in 2 coluns only -->
+            <tfoot>
+                <tr>
+                    <td colspan="3">Not: All data updates today 2022/11/12</td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+    </section>
+
+</body>
+</html>

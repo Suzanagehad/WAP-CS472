@@ -1,0 +1,41 @@
+1)
+
+Envirnoment   Global Envirnoment           function c() envirnoment     function f()envirnoment
+
+1st Phase     var a= undefined;            var f= undefined;            var x= undefined;
+hoisting      var b= undefined;            var x= undefined;
+              var c= undefined;
+
+
+
+2nd Phase     x=1;                         document.write(undefined);  b=8;
+Executing      a=5;                        document.write(8);          document.write(10);
+              b=10;                        f=function(a,b,c){...}      b=10;
+              c= function(a,b,c){...}      f(a,b,c);                   x=5;
+              c(8,9,10);                   document.write(9);
+              document.write(10);          x=10;
+              document.write(1);
+
+
+4)
+
+Envirnoment   Global Envirnoment                function myFunction() envirnoment
+
+1st Phase     var x=undefined
+hoisting      function myFunction(){}
+
+2nd phase     x=9;                      
+Excecuting    document.write(myFunction()) =81;  return 81;
+              x=5;
+              document.write(myFunction()) =25;  return 25;
+
+5)
+
+Envirnoment  Global Envirnoment    function bar() envirnoment   if() scope
+
+1st Phase    var foo= undefined;   if(){}                        var foo=undefined;
+hoisting     function bar(){};
+
+
+2nd Phase    foo=1;               if(!foo){}                     foo=10;       
+Executing    bar()                 alert(10); 

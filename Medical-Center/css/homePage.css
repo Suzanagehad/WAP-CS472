@@ -1,0 +1,77 @@
+/* Home page for HolyCross css */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body > header{
+    background-color: rgb(233, 84, 32);
+    color: white;
+}
+/* 
+header div.container-fluid{
+    color: white;
+} */
+
+a.navbar-brand ,a.nav-link active, a.nav-link  {
+    color: white;
+}
+
+h1, h5{
+    color: black;
+}
+h5{
+    font-style: italic;
+}
+
+h6{
+    color: rgba(0, 0, 0, 0.525);
+    
+}
+body >footer{
+    display: flex;
+    height: 5vh;
+    background-color: gainsboro;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+main>div.main-content{
+    width: 80vw;
+}
+
+img#headerLogo{
+ width: 80vw;
+}
+
+footer div.left-footer{
+    /* inorder to divide the footer into two parts  */
+    width: 50vw;
+    /* inorder to make visible in the window instead of hiding part of its sides */
+    margin-left: 2em;
+    flex: 1;
+}
+
+footer div.right-footer{
+    /* to make is flexible the right footer */
+    display: flex;
+    width: 50vw;
+    /* inorder to make it to move it to the end of th page because it will be in the center */
+    justify-content: flex-end;
+    margin-right: 2em;
+    flex: 1;
+
+}
+
+span#emailInfo{
+    color: red;
+}

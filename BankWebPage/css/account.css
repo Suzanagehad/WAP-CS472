@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    vertical-align: middle;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#home{
+    color: gray;
+}
+
+h4{
+    margin-top: 10px;
+}
+
+.row{
+    margin-top: 20px;
+}
+
+.navbar-brand, .nav-link{
+    color: white;
+    float: left;
+    padding-right: 25px;
+}
+
+div.leftnav {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signin{
+    color: white;
+   background-color: gray;
+   border-radius: 5px;
+}
+
+#in{
+    border-radius: 5px;
+}
+
+#hR{
+    margin-top: 10px;
+    color: gray;
+}
+
+.navbar{
+    background-color: rgb(54, 167, 232);
+}
+
+input[type="text"], textarea{
+    width: 100%;
+    height: 45px;
+    border: 1px solid rgba(145, 143, 143, 0.43);
+    border-radius: 4px;
+}
+
+#btn{
+    margin-top: 10px;
+}
+
+#one{
+    background-color:rgb(195, 195, 195);
+    border-radius: 5px;
+}
+
+#two{
+    background-color: rgb(54, 167, 232);
+    border-radius: 5px;
+}
+
+body > footer{
+    /* to make it inline instead of in block */
+    display: flex;
+    height: 5vh;
+    background-color: rgb(226, 223, 223);
+    /* inorder to make in the center horizontaly in its border */
+    align-items: center;
+    position: fixed;
+    /* to send it to the bottom or stick the footer in the bottom */
+    bottom: 0;
+    width: 100vw;
+
+}
+
+footer div.right-footer{
+    /* to make is flexible the right footer */
+    display: flex;
+    width: 50vw;
+    /* inorder to make it to move it to the end of th page because it will be in the center */
+    justify-content: flex-end;
+    margin-right: 2em;
+    flex: 1;
+
+}
+

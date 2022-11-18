@@ -1,0 +1,71 @@
+/* homeCensus.css */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body > footer{
+    /* to make it inline instead of in block */
+    display: flex;
+    height: 5vh;
+    background-color: antiquewhite;
+    /* inorder to make in the center horizontaly in its border */
+    align-items: center;
+    position: fixed;
+    /* to send it to the bottom or stick the footer in the bottom */
+    bottom: 0;
+    width: 100vw;
+
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    /* inorder to make it on the center of the page */
+    justify-content: center;
+}
+
+main > div.main-content{
+    width: 80vw;
+
+}
+
+img#censusLogo{
+    float: right;
+
+}
+
+#homeText{
+
+}
+
+footer div.left-footer{
+    /* inorder to divide the footer into two parts  */
+    width: 50vw;
+    /* inorder to make visible in the window instead of hiding part of its sides */
+    margin-left: 2em;
+    flex: 1;
+}
+
+footer div.mid-footer{
+     /* to make is flexible the right footer */
+     display: flex;
+     width: 50vw;
+     /* inorder to make it to move it to the end of th page because it will be in the center */
+     justify-content: flex-end;
+     margin-right: 2em;
+     flex: 1;
+ 
+
+}
+
+footer div.right-footer{
+    /* to make is flexible the right footer */
+    display: flex;
+    width: 50vw;
+    /* inorder to make it to move it to the end of th page because it will be in the center */
+    justify-content: flex-end;
+    margin-right: 2em;
+    flex: 1;
+
+}
