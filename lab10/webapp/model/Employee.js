@@ -26,6 +26,5 @@ export class Employee extends Person{
     }
 }
 
-
 const emplo= new Employee("Anna", new Date(1955,3,25), 249995.50, new Date(2000,11,3));
 emplo.doJob("Programmer");
